@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCB Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>NILESH C. BAGLEKAR</h1>
+        <p class="contact">📞 +91-9404849168 | 📧 <a href="mailto:nilesh.baglekar@gmail.com">nilesh.baglekar@gmail.com</a></p>
+        
+        <div class="tabs">
+            <button class="tablink active" onclick="openTab(event, 'profile')">Profile</button>
+            <button class="tablink" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tablink" onclick="openTab(event, 'education')">Education</button>
+            <button class="tablink" onclick="openTab(event, 'projects')">Projects</button>
+            <button class="tablink" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tablink" onclick="openTab(event, 'publications')">Publications</button>
+        </div>
+
+        <div id="profile" class="tabcontent active">
+            <h2>Profile Summary</h2>
+            <p>M.E. in Structural Engineering with over 9 years of experience as an Academician.</p>
+            <p>Expert in structural design, software like ETABS, REVIT, STAAD, and AutoCAD.</p>
+            <p>Research interest in Seismic Analysis and Fragility Analysis of Reinforced Concrete structures.</p>
+        </div>
+
+        <div id="experience" class="tabcontent">
+            <h2>Organizational Experience</h2>
+            <ul>
+                <li>MIT Academy of Engineering, Pune – Assistant Professor (Since 2016)</li>
+                <li>Dhole Patil College of Engineering, Pune – Assistant Professor (2015-2016)</li>
+                <li>G. H. Raisoni College of Engineering – Assistant Professor (2014-2015)</li>
+                <li>Design & Build, Builders and Developers, Akola – Site Engineer (2012-2014)</li>
+            </ul>
+        </div>
+
+        <div id="education" class="tabcontent">
+            <h2>Academic Details</h2>
+            <ul>
+                <li>M.E. in Structural Engineering (CGPA: 8.84) – Amravati University (2014)</li>
+                <li>B.E. in Civil Engineering (79.5%) – Amravati University (2012)</li>
+                <li>12th – S. N. U. College of Science (54.50%)</li>
+                <li>10th – Hindu Dnyanpeeth Convent, Akola (76.26%)</li>
+            </ul>
+        </div>
+
+        <div id="projects" class="tabcontent">
+            <h2>Academic Projects</h2>
+            <ul>
+                <li><strong>Comparative Study of Finite Difference & Finite Element Method</strong> – Analysis of Plate Elements</li>
+                <li><strong>Structural Health Monitoring</strong> – Non-Destructive Testing</li>
+            </ul>
+        </div>
+
+        <div id="skills" class="tabcontent">
+            <h2>Skills</h2>
+            <ul>
+                <li>AutoCAD, Staad PRO, ETABS, REVIT</li>
+                <li>MS Office Suite</li>
+                <li>Fundamentals of C Programming</li>
+            </ul>
+        </div>
+
+        <div id="publications" class="tabcontent">
+            <h2>Publications</h2>
+            <ul>
+                <li>"Plate Element Analysis by Finite Difference Method" – International Journal for Engineering Applications</li>
+                <li>"Design of Structural Components Against Blast Load" – IJSE Research</li>
+                <li>"Retrofitting of Flexural Member using GFRP 300" – IJIRSET</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
